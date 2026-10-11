@@ -4,6 +4,8 @@ A tiny interface spec + validator that compiles a project's threat model file in
 
 **As of 2026-10-11.**
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 AI security scanners output severities nobody asked for. "Critical" from scanner A is "medium" from scanner B, because each model improvises a rubric at prompt time. Meanwhile projects *do* have opinions — they know which assets are secret, which bugs are acceptable, and what "critical" means for them — but that knowledge lives in docs the scanner never sees.
